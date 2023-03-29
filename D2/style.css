@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+}
+
+#head {
+  padding: 10px;
+  background-color: bisque;
+  border-top: 2px solid rgb(219, 223, 18);
+  color: #177;
+  margin-bottom: 20px;
+}
+
+#titolo {
+  width: 715px;
+}
+
+#elenco {
+  width: 715px;
+  text-align: left;
+  margin: auto;
+}
+
+#didascalia {
+  width: 715px;
+  border-left: 2px bisque solid;
+  text-align: left;
+  margin: auto;
+  padding: 2px;
+}
+
+#featured {
+  color: red;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+#ingredienti {
+  border-bottom: 2px solid bisque;
+  padding: 10px;
+}
+
+#metodo {
+  border-bottom: 2px solid bisque;
+  padding: 10px;
+}
+
+#image {
+  color: grey;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.lista {
+  margin-bottom: 10px;
+}

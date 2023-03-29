@@ -1,0 +1,125 @@
+body {
+  margin: 0 100px 0 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#titolo {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#sottotitolo {
+  text-align: center;
+  color: rgb(157, 149, 149);
+  font-size: 15px;
+}
+
+.blocco {
+  text-align: center;
+}
+
+span {
+  color: red;
+  margin: 10px;
+}
+
+#relate {
+  color: black;
+}
+
+.all span {
+  color: black;
+  text-align: center;
+}
+
+.all span:hover {
+  background-color: bisque;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.all {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.selettori {
+  position: absolute;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.selettori:nth-child(1) {
+  left: 0px;
+  border: 2px solid pink;
+  padding-right: 50px;
+}
+.selettori:nth-child(2) {
+  right: 0px;
+  border: 2px solid black;
+}
+
+.image_container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image {
+  width: 23%;
+  height: 350px;
+}
+
+.img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.userimg {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.team {
+  color: white;
+  font-size: 0.8em;
+  font-weight: bolder;
+  background-color: lightgray;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
